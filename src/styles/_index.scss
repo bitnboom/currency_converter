@@ -1,0 +1,50 @@
+@import 'normalize-css/normalize.css';
+@import './_variables.scss';
+@import './_mixins.scss';
+
+@include scrollbar;
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	touch-action: pan-y;
+}
+
+body,
+html,
+#app {
+	height: 100%;
+	min-height: -webkit-fill-available;
+	min-height: -moz-available;
+
+	overflow: hidden;
+}
+
+body {
+	font-size: $font-size-base;
+	font-family: 'Inter', sans-serif;
+	color: $clr-primary-app;
+
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+button {
+	padding: 0;
+	background: none;
+	border: none;
+
+	color: $clr-primary-app;
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+p,
+h1 {
+	margin: 0;
+}

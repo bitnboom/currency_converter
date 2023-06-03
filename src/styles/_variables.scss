@@ -1,0 +1,23 @@
+// Adaptivity
+$mobile-iphone4-width: 320px;
+$mobile-width: 480px;
+$tablet-width: 860px;
+
+$gap-base: 20px;
+$gap-small: calc($gap-base / 2);
+$gap-medium: calc($gap-base * 2);
+
+$border-radius-base: 10px;
+$border-radius-small: 5px;
+
+// Colors
+$clr-primary-app: #141e37;
+$clr-secondary-app: white;
+$clr-base: #0071eb;
+$clr-error: #fd4b4b;
+
+// Fonts
+$font-size-large: 20px;
+$font-size-medium: 16px;
+$font-size-base: 16px;
+$font-size-small: 14px;
