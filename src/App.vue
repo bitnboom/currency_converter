@@ -1,15 +1,22 @@
 <template>
 	<div class="app">
 		<h1 class="app__title">Currency converter</h1>
+
+		<CurrencyConverter />
 	</div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import CurrencyConverter from '@/components/CurrencyConverter.vue';
 
 export default defineComponent({
 	setup() {
 		return {};
+	},
+
+	components: {
+		CurrencyConverter,
 	},
 });
 </script>
